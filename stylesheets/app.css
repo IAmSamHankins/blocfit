@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 /* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/";
@@ -9734,4 +9736,166 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important;
   }
+}
+/* line 18, ../scss/_overrides.scss */
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #ecf0f1;
+}
+
+/* line 23, ../scss/_overrides.scss */
+h1, h2, h3, h4, h5, h6, .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #7f8c8d;
+}
+
+/* line 29, ../scss/_overrides.scss */
+h1 {
+  font-weight: 100;
+  color: #34495e;
+}
+
+/* line 34, ../scss/_overrides.scss */
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 40, ../scss/_overrides.scss */
+.contain-to-grid {
+  background: #3498db;
+}
+/* line 42, ../scss/_overrides.scss */
+.contain-to-grid .top-bar {
+  background: #3498db;
+}
+/* line 44, ../scss/_overrides.scss */
+.contain-to-grid .top-bar h1 a {
+  font-weight: 700;
+}
+
+/* line 50, ../scss/_overrides.scss */
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #217dbb;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 53, ../scss/_overrides.scss */
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  background: #1d6fa5;
+}
+
+/* line 58, ../scss/_overrides.scss */
+#profile {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+/* line 63, ../scss/_overrides.scss */
+#profile .face img {
+  border-radius: 20%;
+  border: 2px solid #fff;
+  display: inline-block;
+  box-shadow: 0 1px 3px #bdc3c7;
+}
+/* line 70, ../scss/_overrides.scss */
+#profile h1 {
+  margin-bottom: 0;
+}
+/* line 73, ../scss/_overrides.scss */
+#profile p {
+  margin: 0 0 .25em;
+  color: #7f8c8d;
+  font-weight: 300;
+}
+/* line 78, ../scss/_overrides.scss */
+#profile ul {
+  list-style-type: none;
+  margin: .5em 0 0;
+  padding: 0;
+}
+/* line 82, ../scss/_overrides.scss */
+#profile ul li {
+  display: inline;
+  background: #3498db;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  font-size: 0.75em;
+  margin-right: 0.5em;
+}
+/* line 89, ../scss/_overrides.scss */
+#profile ul li a {
+  color: #fff;
+}
+/* line 91, ../scss/_overrides.scss */
+#profile ul li a i {
+  margin-right: 0.5em;
+}
+
+/* line 99, ../scss/_overrides.scss */
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 104, ../scss/_overrides.scss */
+.panel {
+  background: #fff;
+  border: none;
+  box-shadow: 0 2px 3px #bdc3c7;
+  margin: 2em 0 0;
+}
+/* line 109, ../scss/_overrides.scss */
+.panel h3 {
+  position: relative;
+  top: -125px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 2.15em;
+  height: 0;
+  font-weight: 900;
+}
+/* line 118, ../scss/_overrides.scss */
+.panel h3 span {
+  display: block;
+  font-weight: 300;
+  font-size: 0.5em;
+  color: #7f8c8d !important;
+}
+
+/* line 126, ../scss/_overrides.scss */
+.panel h3.week {
+  color: #4eddc1;
+}
+
+/* line 129, ../scss/_overrides.scss */
+.panel h3.month {
+  color: #1abc9c;
+}
+
+/* line 132, ../scss/_overrides.scss */
+.panel h3.year {
+  color: #0b9277;
+}
+
+/* line 137, ../scss/_overrides.scss */
+.doughnut p {
+  text-align: center;
+  line-height: 1.4;
+  color: #7f8c8d;
+  font-weight: 300;
+}
+
+/* line 145, ../scss/_overrides.scss */
+footer {
+  padding: 2em 0 1em;
+}
+/* line 147, ../scss/_overrides.scss */
+footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.875em;
+  color: #7f8c8d;
 }
