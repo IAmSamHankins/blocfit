@@ -43,11 +43,32 @@
     <div class="large-12 columns">
       <div class="panel">
         <h2>Your Weekly Run Total</h2>
+        <div class="canvas-holder" id="runTotal">
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3]
+      }]
+    },
+    options:{
+      scales:{
+        yAxes:[{
+            ticks:{
+              beginAtZero:true
+            }
+          }]
+      }
+    }
+});
+</script>
 
-<div class="canvas-holder">
-    <canvas width="250" height="125"></canvas>
-</div>
-      </div>
+        </div>
     </div>
   </div>
   <div class="row">
@@ -74,7 +95,7 @@
   </footer>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/Chart.js"></script>    
+    <script src="js/Chart.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
